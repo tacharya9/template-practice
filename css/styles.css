@@ -1,7 +1,7 @@
 /*body cam css*/
 #container{
   width:80%;
-  max-width:800px;
+  width:800px;
   margin:50px auto;
 }
 h1{
@@ -38,5 +38,29 @@ h1{
   text-transform: uppercase;
   font-size:11px;
   font-weight:bold;
+}
 
+/* list items */
+#incidents ul,
+#incidents ul li{
+  list-style:none;
+  padding:0;
+}
+#incidents li{
+  clear:both;
+  height:225px;
+  margin-bottom:30px;
+}
+#incidents li .yt-info{
+  width:380px;
+  float:left;
+  margin-right:20px;
+}
+#incidents li .yt-info h6{}
+#incidents li .yt-info h2{}
+#incidents li .yt-info time{}
+#incidents li .yt-video{
+  width:400px;
+  height:225px;
+  float:left;
 }
